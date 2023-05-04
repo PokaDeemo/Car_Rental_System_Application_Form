@@ -1,0 +1,3 @@
+﻿SET IDENTITY_INSERT [dbo].[RentalCarData] ON
+INSERT INTO [dbo].[RentalCarData] ([CustomerID], [SocialSecurityNo], [Title], [FirstName], [Surname], [ContactNo], [PostalCode], [City], [Country], [VehicleID], [CarEngine], [CarRegistYear], [CarModel], [CarColor], [CarSpecification], [MilesBefore], [MilesAfter], [CarCategory], [PersonalHire], [CharteredHire], [BookingNo], [DaysRented], [RentalDate], [RentalTime], [MeterSetting], [DiscountRate], [DayOfTariff], [TotalCost]) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL)
+SET IDENTITY_INSERT [dbo].[RentalCarData] OFF
